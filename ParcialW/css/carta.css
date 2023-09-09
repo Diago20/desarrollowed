@@ -1,0 +1,78 @@
+/* carta.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Fondo oscuro */
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Texto claro en fondo oscuro */
+}
+
+header {
+    background-color: #007BFF; /* Color de encabezado */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #444; /* Fondo oscuro para el contenido principal */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1); /* Sombra en blanco */
+}
+
+.product {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #666; /* Bordes oscuros */
+    border-radius: 5px;
+}
+
+.product h2 {
+    font-size: 20px;
+    margin: 0;
+    color: #fff; /* Texto claro en fondos oscuros */
+}
+
+.product p {
+    margin-top: 5px;
+    color: #ccc; /* Texto gris claro en fondos oscuros */
+}
+
+label {
+    font-weight: bold;
+    color: #fff; /* Texto claro en fondos oscuros */
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+button#submit-order {
+    background-color: #007BFF; /* Color de botón */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button#submit-order:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+}
